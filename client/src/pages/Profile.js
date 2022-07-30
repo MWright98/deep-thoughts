@@ -78,7 +78,7 @@ const Profile = () => {
           friends={user.friends}
         />
       </div>
-      <div className="mb-3">{!userParam && <ThoughtForm />}</div>
+      <div className="col-12 mb-3">{!userParam && <ThoughtForm />}</div>
     </div>
   );
 };
